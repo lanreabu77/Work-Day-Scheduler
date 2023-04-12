@@ -1,0 +1,103 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #e3d3c6be;
+  }
+
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: rgb(6, 6, 6);
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+
+  #currentDay {
+    margin: 0;
+    padding: .6rem;
+    color:#dda777;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.Mylogo {
+  width: 30%;
+  height: auto;
+  
+}
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    border-top: 1px solid rgb(176, 169, 169);
+    background-color: #c3cfd1;
+    height: 80px;
+    white-space: pre-wrap;
+  }
+  
+  .hour {
+    background-color: #706d6d;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #pageFooter {
+    display: flex;
+    height: 6rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#clearBtn,
+#saveAllBtn {
+    margin: auto 2rem;
+    background-color: #8b8f8d;
+} 
