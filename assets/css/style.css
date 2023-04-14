@@ -79,8 +79,9 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: #067fd5;
     color: white;
+    padding: 15px;
   }
   
   .saveBtn i:hover {
@@ -94,6 +95,7 @@ body {
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
+    background-color: #ecf1f4;
 }
 
 #clearBtn,
